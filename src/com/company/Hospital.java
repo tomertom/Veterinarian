@@ -3,7 +3,7 @@ package com.company;
 import java.util.ArrayList;
 
 public class Hospital extends Client {
-static int counter1;
+
     public Hospital(String firstName, String lastName, String phoneNumber, boolean ads ) {
         this.firstName = firstName;
         this.lastName = lastName;
