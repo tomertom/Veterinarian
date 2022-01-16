@@ -10,7 +10,7 @@ public class Hospital extends Client {
         this.phoneNumber = phoneNumber;
         this.ads = ads;
         this.clientNumber=counter++;
-        sendAD();
+        sendADs();
     }
 
        public void removeClient( int clientNumber ){
@@ -52,8 +52,8 @@ public class Hospital extends Client {
                      }
               }
        }
-    public void sendAD(){
-          String contact="send AD to: " +firstName+" " + lastName+" " + phoneNumber;
+    public void sendADs(){
+          String contact="send ADs to: " +firstName+" " + lastName+" " + phoneNumber;
 
         if (ads){
             System.out.println(contact);
