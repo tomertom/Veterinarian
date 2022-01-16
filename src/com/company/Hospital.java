@@ -66,5 +66,13 @@ public class Hospital extends Client {
               System.out.println(petsList);
 
        }
+    
+
+    public void printClient(){
+        System.out.println( "client number is: " +clientNumber +
+                ", first name is: "+ firstName +
+                ", last name is: "+ lastName +
+                ", ads: " + ads);
+    }
 
 }
