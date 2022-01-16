@@ -11,18 +11,5 @@ public class Client {
      boolean ads;
      String typeOfPet;
 
-    public void removeClient( int clientNumber,String clientName ){
-        this.firstName = null;
-        this.lastName = null;
-        this.phoneNumber = null;
-        this.ads = false;
-        this.clientNumber=clientNumber;
-    }
-
-    public void printClient(){
-        System.out.println( "client number is: " +clientNumber +
-                ", first name is: "+ firstName +
-                ", last name is: "+ lastName +
-                ", ads: " + ads);
-    }
+   
 }
